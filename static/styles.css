@@ -1,0 +1,38 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/ertyu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/* Additional styles for content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.greeting {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.topics {
+    margin-top: 30px;
+}
+
+.topic-item {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topic-item:hover {
+    background-color: #0056b3;
+}

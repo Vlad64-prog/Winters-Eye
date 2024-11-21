@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+</head>
+<body>
+    <h2>Recommended Topics</h2>
+    <ul>
+        {% for topic in suggested_topics %}
+            <li>{{ topic }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>
